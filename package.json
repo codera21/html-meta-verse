@@ -1,0 +1,22 @@
+{
+  "name": "html-meta-verse",
+  "version": "1.0.0",
+  "description": "fetching meta data of website from url",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codera21/html-meta-verse.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codera21/html-meta-verse/issues"
+  },
+  "homepage": "https://github.com/codera21/html-meta-verse#readme",
+  "devDependencies": {
+    "typescript": "^4.6.2"
+  }
+}
