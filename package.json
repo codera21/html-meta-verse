@@ -2,9 +2,10 @@
   "name": "html-meta-verse",
   "version": "1.0.0",
   "description": "fetching meta data of website from url",
-  "main": "index.js",
+  "main": "dist/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ava  ./test/**/*.test.js"
+
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,10 @@
   },
   "homepage": "https://github.com/codera21/html-meta-verse#readme",
   "devDependencies": {
+    "ava": "^4.0.1",
     "typescript": "^4.6.2"
+  },
+  "dependencies": {
+    "node-fetch": "^3.2.1"
   }
 }

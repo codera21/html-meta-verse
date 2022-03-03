@@ -3,5 +3,8 @@
     "rootDir": "src",
     "outDir": "dist",
     "module": "commonjs"
-  }
+  },
+
+  "include": ["src/**/*", "test/main.test.js"],
+  "exclude": ["src/**/*.spec.ts", "src/**/*.test.ts"]
 }
