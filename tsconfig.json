@@ -1,8 +1,10 @@
 {
   "compilerOptions": {
+    "target": "ES2017",
     "rootDir": "src",
     "outDir": "dist",
-    "module": "commonjs"
+    "module": "esnext",
+    "allowSyntheticDefaultImports": true
   },
 
   "include": ["src/**/*", "test/main.test.js"],

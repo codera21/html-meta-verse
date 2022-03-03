@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "fetching meta data of website from url",
   "main": "dist/main.js",
+  "type": "module",
   "scripts": {
-    "test": "ava  ./test/**/*.test.js"
-
+    "test": "ava  ./test/**/*.test.js",
+    "dev": "node ./dist/main.js"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,11 @@
     "typescript": "^4.6.2"
   },
   "dependencies": {
+    "@types/cheerio": "^0.22.31",
+    "@types/minimist": "^1.2.2",
+    "@types/node-fetch": "^2.6.1",
+    "cheerio": "^1.0.0-rc.10",
+    "minimist": "^1.2.5",
     "node-fetch": "^3.2.1"
   }
 }
