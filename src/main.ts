@@ -3,10 +3,10 @@ import cheerio from "cheerio";
 import minimist from "minimist";
 
 const args = minimist(process.argv.slice(2))
-console.log(args);
+// console.log(args);
 
-// input url: this should come from cli 
-// const input_url = 'https://www.sastodeal.com/fumo-classic-faux-leather-bean-bag-xxxl-black-with-beans-fumo-sd-gg-002.html';
+
+
 
 const inputUrl: string = args['url'];
 
