@@ -1,2 +1,2 @@
 # html-meta-verse
-Fetching data From meta tag from url
+Fetching meta data of Html from url
