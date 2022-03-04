@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "fetching meta data of website from url",
   "main": "dist/main.js",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "test": "ava  ./tests/**/*.test.js",
     "build": "npx tsc",
@@ -31,7 +31,6 @@
     "@types/node-fetch": "^2.6.1",
     "cheerio": "^1.0.0-rc.10",
     "fastify": "^3.27.2",
-    "minimist": "^1.2.5",
-    "node-fetch": "^3.2.1"
+    "minimist": "^1.2.5"
   }
 }

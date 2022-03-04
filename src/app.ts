@@ -1,12 +1,12 @@
 #!/usr/bin/env node
 import Fastify from 'fastify';
+import indexRoute from './routes/home';
+
 const fastify = Fastify({
   logger: true,
 });
 
-fastify.get('/', async (request, reply) => {
-  return { hello: 'world' };
-});
+fastify.register(indexRoute);
 
 const start = async () => {
   try {
