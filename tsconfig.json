@@ -7,6 +7,6 @@
     "allowSyntheticDefaultImports": true
   },
 
-  "include": ["src/**/*", "test/main.test.js"],
+  "include": ["src/**/*", "tests/main.test.js"],
   "exclude": ["src/**/*.spec.ts", "src/**/*.test.ts"]
 }
