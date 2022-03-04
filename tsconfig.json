@@ -4,7 +4,8 @@
     "rootDir": "src",
     "outDir": "dist",
     "module": "esnext",
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node"
   },
 
   "include": ["src/**/*", "tests/main.test.js"],

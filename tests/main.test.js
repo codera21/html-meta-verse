@@ -1,1 +1,5 @@
-const test = require('ava');
+import test from 'ava';
+
+test('should run', (t) => {
+  t.pass();
+});
