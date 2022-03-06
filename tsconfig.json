@@ -8,6 +8,5 @@
     "moduleResolution": "node"
   },
 
-  "include": ["src/**/*", "src/tests/main.test.ts"],
-  "exclude": ["src/**/*.spec.ts", "src/**/*.test.ts"]
+  "include": ["src/**/*"]
 }
