@@ -5,7 +5,8 @@
     "outDir": "dist",
     "module": "commonjs",
     "allowSyntheticDefaultImports": true,
-    "moduleResolution": "node"
+    "moduleResolution": "node",
+    "declaration": true
   },
 
   "include": ["src/**/*"]

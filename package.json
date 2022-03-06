@@ -2,14 +2,15 @@
   "name": "html-meta-verse2",
   "version": "v1.0.9",
   "description": "fetching meta data of website from url",
-  "main": "/dist/bin/serve.js",
+  "main": "/dist/app.js",
+  "types": "dist/app.d.ts",
   "type": "commonjs",
   "scripts": {
     "test": "ava ./dist/tests/**/*.test.js",
-    "build": "tsc -p tsconfig.json",
     "serve": "node ./dist/bin/serve.js",
     "dev": "nodemon ./dist/bin/serve.js",
-    "meta": "node ./dist/bin/meta.js"
+    "meta": "node ./dist/bin/meta.js",
+    "prepublish": "tsc -p tsconfig.json"
   },
   "repository": {
     "type": "git",
