@@ -1,6 +1,6 @@
 {
   "name": "html-meta-verse2",
-  "version": "v1.0.7",
+  "version": "v1.0.8",
   "description": "fetching meta data of website from url",
   "main": "/dist/bin/serve.js",
   "type": "commonjs",
@@ -32,7 +32,7 @@
   },
   "dependencies": {
     "axios": "^0.26.0",
-    "cheerio": "^1.0.7-rc.10",
+    "cheerio": "^1.0.8-rc.10",
     "fastify": "^3.27.2",
     "minimist": "^1.2.5"
   }
