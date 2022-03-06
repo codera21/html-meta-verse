@@ -1,4 +1,3 @@
-#!/usr/bin/env node
 import * as minimist from 'minimist';
 import metaTags from '../lib/metaTags';
 import * as fs from 'fs';

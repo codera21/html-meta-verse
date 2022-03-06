@@ -1,4 +1,3 @@
-#!/usr/bin/env node
 import fastify from '../app';
 
 const port = 3000;
