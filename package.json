@@ -1,5 +1,5 @@
 {
-  "name": "html-meta-verse",
+  "name": "@atulnepal21/html-meta-verse",
   "version": "1.0.2",
   "description": "fetching meta data of website from url",
   "main": "/dist/bin/serve.js",
@@ -14,6 +14,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/codera21/html-meta-verse.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "author": "",
   "license": "ISC",
