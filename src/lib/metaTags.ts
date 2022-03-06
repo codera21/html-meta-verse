@@ -1,8 +1,6 @@
 import axios from 'axios';
 import cheerio from 'cheerio';
 
-// import minimist from 'minimist';
-
 async function getMetaTags(url: string) {
   // goto the url
   const res = await axios.get(url);
