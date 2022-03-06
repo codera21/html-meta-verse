@@ -15,9 +15,6 @@
     "type": "git",
     "url": "git+https://github.com/codera21/html-meta-verse.git"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "author": "codera21",
   "license": "ISC",
   "bugs": {
