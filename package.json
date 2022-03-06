@@ -16,7 +16,7 @@
     "url": "git+https://github.com/codera21/html-meta-verse.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://npm.pkg.github.com/atulnepal21"
   },
   "author": "",
   "license": "ISC",
