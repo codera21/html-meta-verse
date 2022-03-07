@@ -1,11 +1,11 @@
 name: Publish Package to npmjs
 on:
-  # release:
-  #   types: [created]
+  release:
+    types: [created]
   push:
     # branches: [master]
-    tags:
-      - v*.*.*
+    # tags:
+    #   - v*.*.*
 jobs:
   build:
     name: Publishing Job to NPM
