@@ -1,6 +1,6 @@
 {
   "name": "html-meta-verse2",
-  "version": "v1.0.11",
+  "version": "v1.0.12",
   "description": "fetching meta data of website from url",
   "main": "/dist/app.js",
   "types": "dist/app.d.ts",
